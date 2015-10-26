@@ -25,7 +25,7 @@ export default React.createClass({
               {this.renderOperator()}
               <input type='text' className='form-control' placeholder='Value' value={this.state.propertyValue} onChange={this.updatePropertyValue}/>
             </div>
-            <button type='submit' className='btn btn-primary' onClick={this.setFilter}>Filter</button>
+            <button type='button' className='btn btn-primary' onClick={this.setFilter}>Filter</button>
             {this.renderInfo()}
           </form>
         </div>

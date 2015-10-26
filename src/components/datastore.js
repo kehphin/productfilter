@@ -16,11 +16,11 @@ window.datastore = {
       id: 0,
       properties: [
         {
-          name: 'Product Name', // property 1, 
-          value: 'Headphones' // string
+          name: 'Product Name', 
+          value: 'Headphones'
         },
         {
-          name: 'color', // property 2
+          name: 'color', 
           value: 'black'
         },
         {
@@ -28,12 +28,12 @@ window.datastore = {
           value: 5
         },
         {
-          name: 'category', // property
-          value: 'electronics' // enumerated
+          name: 'category', 
+          value: 'electronics' 
         },
         {
-          name: 'wireless', //property
-          value: 'false' // enumerated
+          name: 'wireless', 
+          value: 'false' 
         }
       ]
     },

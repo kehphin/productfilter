@@ -58,8 +58,6 @@ export default React.createClass({
       operatorObj.id === 'greater_than' || operatorObj.id === 'less_than'
     );
 
-    alert(JSON.stringify(propertyTypeOperators));
-
     return propertyTypeOperators;
   }
 });

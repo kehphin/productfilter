@@ -3,6 +3,7 @@ import _ from 'underscore';
 
 export default React.createClass({
   render() {
+    // For the sake of the example datastore, only display the categories provided
     let product = this.props.product;
     let name = _.find(product.properties, (property) => property.name === 'Product Name');
     let color = _.find(product.properties, (property) => property.name === 'color');
